@@ -1,0 +1,68 @@
+.box{
+    border:1px solid gray;
+    margin-top: 4%;
+    margin-left: 10px;
+}
+.tabs{
+display: flex;
+justify-content: space-between;
+}
+.tab{
+    background-color: #fff;
+    border: 2px solid lightblue;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.active-tab{
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    font-weight: 700;
+}
+
+.content{
+    position: relative;
+    display: none;
+}
+.active-content{
+    display: block;
+}
+
+
+.contact-tab{
+    background-color: lightblue;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.active-contact-tab{
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    font-weight: 700;
+}
+
+
+.sub-Contact-Content{
+  display: none;
+}
+
+.active-sub-Contact-Content{
+    display: block;
+}
+.contact-head{
+    background: rgb(249, 82, 27);
+    color: rgb(255, 255, 255);
+    line-height: 3.4;
+    font-size: large;
+    font-weight: bold;
+}
